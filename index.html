@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>街机大玩家</title>
+</head>
+
+<body>
+   <div class="content">
+      <a href="mailto:gyh230412@163.com" class="footer">联系邮箱：gyh230412@163.com</a>
+      <div class="mainContebt">
+         <div class="main">
+            <img src="./imgs/img_jjdwj_icon.png" class="logo">
+            <p class="mainTitle">街机大玩家</p>
+            <p class="maintext">超好玩的线上街机平台</p>
+            <p class="maintext">经典玩不停，潮品大收集！</p>
+            <p class="maintext">高质量娃娃种类丰富，靠谱娃娃机惊喜不断</p>
+            <p class="maintext">万圣夜困难重重，射击挑战赢取战利品</p>
+            <p class="maintext">经典推币机高清低延迟，随时随地快乐JP</p>
+            <div id="download_btn">
+               <img src="./imgs/icon_apple.png" class="appleicon">
+               <p class="downNow">立即下载</p>
+            </div>
+         </div>
+         <img src="./imgs/img_jjdwj.png" class="showTime">
+      </div>
+   </div>
+</body>
+<script>
+    document.getElementById('download_btn').addEventListener('click', function() {
+      window.location.href = 'https://itunes.apple.com/app/id6447850309';
+   })
+</script>
+<style>
+   * {
+      margin: 0;
+      padding: 0;
+   }
+   body {
+      background-color: #ffe800;
+   }
+   .content {
+      width: 1000px;
+      margin: 0 auto;
+      padding-top: 59px;
+      background-image: url('./imgs/img_jjdwj_bg.png');
+   }
+   .footer {
+      font-size: 20px;
+      font-weight: 500;
+      color: #40210f;
+      text-decoration: none;
+      position: relative;
+      left: 29px;
+   }
+   .logo {
+      width: 156px;
+      height: 156px;
+      position: relative;
+      left: 28px;
+      margin-top: 66px;
+   }
+   .main{
+      position: relative;
+      float: left;
+   }
+   .mainTitle {
+      font-size: 36px;
+      font-weight: bolder;
+      color: #40210F;
+      position: relative;
+      margin-top: 35px;
+      margin-bottom: 32px;
+      left: 27px;
+   }
+   .maintext {
+      font-size: 24px;
+      font-weight: 500;
+      color: #000000;
+      margin-bottom: 20px;
+      position: relative;
+      left: 29px;
+   }
+   #download_btn{
+      width: 391px;
+      height: 90px;
+      background-image: url('./imgs//img_jjdwj_btn.png');
+      position: relative;
+      margin-top: 37px;
+      cursor: pointer;
+   }
+   .appleicon {
+      width: 42px;
+      height: 48px;
+      position: absolute;
+      left: 96px;
+      top: 21px;
+   }
+   .downNow {
+      font-size: 32px;
+      font-weight: 500;
+      color: #fff;
+      line-height: 90px;
+      position: absolute;
+      right: 101px
+   }
+   .showTime {
+      width: 484px;
+      height: 686px;
+      float: right;
+   }
+   .mainContebt:after {
+      content: "";
+      display: block;
+      visibility: hidden;
+      clear: both;
+   }
+</style>
+
+</html>
